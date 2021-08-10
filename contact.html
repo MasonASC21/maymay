@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>maymay</title>
+
+    <!--Link to other files-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!--Navbar-->    
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="images/heart.JPG" class="logo"></a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="music.html">MUSIC</a></li>
+                    <li><a href="support.html">SUPPORT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!--Menu Icon-->
+            <i class="fa fa-align-justify" id="menu-icon"></i>
+        </div>
+    </div>
+
+    <h1>Contact</h1>
+
+    <img src="images/smile.jpg" id="smile">
+
+    <p>For business inquiries:</p>
+
+    <!--CHANGE EMAIL LATER-->
+    <a href="mailto:masonbourne2020@gmail.com" target="_blank" class="link">click here.</a>
+
+    <p>My socials:</p>
+
+    <a href="https://www.instagram.com/sherpaandmaymay/" target="_blank" class="mmm"><i class="fa fa-instagram" id="insta"></i></a>
+
+    <p>Write me a message:</p>
+
+    <div class="form">
+        <form action="https://formspree.io/f/xvodwjbw" method="POST">
+
+            <div class="form-group">
+                <input type="text" name="name" placeholder="name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="email" placeholder="email" required>
+            </div>
+
+            <div class="form-group">
+                <textarea type="text" name="message" id="message" placeholder="write your message" cols="30" rows="10" required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>

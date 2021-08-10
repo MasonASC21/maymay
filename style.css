@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-weight: 700;
+    padding: 5px;
+    
+    background: #fffdd0; 
+}
+
+/*nav bar styles*/
+.container {
+    width: 100;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(88, 52, 35);
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: rgb(204, 117, 76);
+}
+
+#menu-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.fa .fa-align-justify {
+    width: 75px;
+}
+
+/* headers and text*/
+h1 {
+    width: 100;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+    color: rgb(88, 52, 35);
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    width: 100;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+    color: rgb(88, 52, 35);
+    display: flex;
+    justify-content: center;
+}
+
+/*images*/
+#grace { 
+    width: 400px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#smile {
+    width: 500px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#mal {
+    width: 600px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#faith {
+    width: 500px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#mason {
+    width: 600px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/*links*/
+.link {
+    text-decoration: underline;
+    color: rgb(88, 52, 35);
+    display: flex;
+    justify-content: center;
+}
+
+.link:hover {
+    color: rgb(204, 117, 76);
+}
+
+/*social links*/
+#insta {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: rgb(88, 52, 35);
+    font-size: 25px;
+}
+
+#insta:hover {
+    color: rgb(204, 117, 76);
+}
+
+/*music links*
+
+/*FIX LATER*/
+#music-div {
+    margin-right: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#music {
+    color: rgb(88, 52, 35);
+    font-size: 44px;
+}
+
+#music:hover {
+    color: rgb(204, 117, 76);
+}
+
+.mmm {
+    text-decoration: none;
+}
+
+#youtube-vid {
+    width: 100;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+    color: rgb(88, 52, 35);
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+/*Form*/ 
+
+.form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-group {
+    padding: 13px;
+    margin: 0 0 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button [type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#done {
+    padding: 10px;
+    color: rgb(88, 52, 35);
+}
+
+/*responsive desgin*/
+@media only screen and (max-width: 700px) {
+    /*navbar*/
+    nav ul {
+        width: 100%;
+        background: rgb(88, 52, 35);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li a {
+        color: #fffdd0;
+    }
+    
+    #menu-icon {
+        cursor: pointer;
+        display: block;  
+    } 
+    
+    /*images*/
+    #grace {
+        width: 100%;   
+    }
+
+    #smile {
+        width: 100%;
+    }
+
+    #mal {
+        width: 100%;
+    }
+
+    #mason {
+        width: 100%;
+    }
+
+    /*headers and text*/
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*links*/
+    .form {
+        width: 100%;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+}
